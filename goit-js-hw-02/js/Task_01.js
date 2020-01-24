@@ -12,5 +12,5 @@ const logItems = function(array) {
   }
 };
 
-// logItems(pets);
+logItems(pets);
 logItems(numbers);
