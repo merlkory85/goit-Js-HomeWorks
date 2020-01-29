@@ -12,4 +12,4 @@ const calculateEngravingPrice = function(message, pricePerWord) {
 };
 
 calculateEngravingPrice(
-  "Proin sociis natoque et magnis parturient montes mus", 390);
+  "Proin sociis natoque et magnis parturient montes mus", 90);
