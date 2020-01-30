@@ -27,7 +27,7 @@ if (total > ordered && total === 100) {
 
 ordered = 130;
 
-if (total > ordered && total === 100) {
+if (total < ordered && total === 100) {
   console.log("Заказ оформлен, с вами свяжется менеджер");
 } else {
   console.log("На складе недостаточно товаров!");
