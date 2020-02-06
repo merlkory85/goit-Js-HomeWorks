@@ -2,14 +2,12 @@
 
 let message;
 const formatString = function(string) {
-  const arrayString = string.split("");
-  arrayString.splice(39);
-  const arrayStitch = arrayString.join("");
+  let lengthString = string.slice(0, 39);
 
   if (string.length < 40) {
-    console.log(arrayStitch);
+    console.log(lengthString);
   } else {
-    console.log(`${arrayStitch}...`);
+    console.log(`${lengthString}...`);
   }
 };
 
