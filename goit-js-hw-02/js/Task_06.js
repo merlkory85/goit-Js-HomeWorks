@@ -4,7 +4,7 @@ let input;
 const numbers = [];
 let total = 0;
 
-while (true) {
+do {
   input = prompt("Введите число!");
 
   if (input === null) {
@@ -13,16 +13,17 @@ while (true) {
   }
   input = Number(input);
   const notANamber = Number.isNaN(input);
+  numbers.push(input);
 
   if (notANamber) {
     alert("Было введено не число, попробуйте еще раз");
     continue;
   }
-  numbers.push(input);
-
+} while (true);
+{
   for (const number of numbers) {
     total += number;
   }
 }
-console.log(numbers);
-console.log(`Общая сумма чисел равна - ${total}`);
+
+console.log(`Общая сумма чисел равна ${total}`);
