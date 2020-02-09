@@ -1,5 +1,4 @@
 "use strict";
-// const arrayString;
 let message;
 const spamToFind = "spam";
 const spamToFind1 = "sale";
@@ -8,9 +7,9 @@ const checkForSpam = function(message) {
 
   console.log(arrayString);
 
-  if (arrayString.indexOf(spamToFind) !== -1) {
+  if (arrayString.includes(spamToFind)) {
     return "true";
-  } else if (arrayString.indexOf(spamToFind1) !== -1) {
+  } else if (arrayString.includes(spamToFind1)) {
     return "true";
   } else {
     return "false";

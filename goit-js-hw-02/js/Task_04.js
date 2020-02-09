@@ -5,9 +5,9 @@ const formatString = function(string) {
   let lengthString = string.slice(0, 39);
 
   if (string.length < 40) {
-    console.log(lengthString);
+    return lengthString;
   } else {
-    console.log(`${lengthString}...`);
+    return `${lengthString}...`;
   }
 };
 
