@@ -14,11 +14,13 @@ const user = {
   premium: true
 };
 
-console.log(user);
 user.mood = "happy";
-console.log(user);
 user.hobby = "skydiving";
-console.log(user.hobby);
 user.premium = "false";
-console.log(user);
-console.log(user.premium);
+
+for (const key in user) {
+  if (user.hasOwnProperty(key)) {
+    const element = user[key];
+    console.log(`${key}: ${element}`);
+  }
+}
