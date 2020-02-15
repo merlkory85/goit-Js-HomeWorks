@@ -9,3 +9,8 @@
 Ссылка на репо модуля_02 https://github.com/merlkory85/goit-Js-HomeWorks/tree/master/goit-js-hw-02
 
 Ссылка на робочую страницу модуля_02 https://merlkory85.github.io/goit-Js-HomeWorks/goit-js-hw-02/index.html
+
+
+Ссылка на репо модуля_03 https://github.com/merlkory85/goit-Js-HomeWorks/tree/master/goit-js-hw-03
+
+Ссылка на робочую страницу модуля_03 https://merlkory85.github.io/goit-Js-HomeWorks/goit-js-hw-03/index.html
