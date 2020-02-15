@@ -21,19 +21,6 @@ function getAllPropValues(arr, prop) {
   return values;
 }
 
-// let arr;
-// const getAllPropValues = function(arr, prop) {
-//   const names = [];
-
-//   for (const prop of products) {
-//     // console.log(prop);
-//     names.push(prop.name);
-//   }
-
-//   return names;
-// };
-// console.log(nameElement);
-
 console.log(getAllPropValues(products, "name")); // ['Радар', 'Сканер', 'Дроид', 'Захват']
 
 console.log(getAllPropValues(products, "quantity")); // [4, 3, 7, 2]
