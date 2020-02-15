@@ -13,8 +13,8 @@ const calculateTotalPrice = function(allProdcuts, productName) {
     const keys = Object.keys(item);
 
     for (const key of keys) {
-      if (item[key] !== NaN && item["name"] === productName) {
-        total = item["price"] * item["quantity"];
+      if (item[key] !== NaN && item.name === productName) {
+        total = item.price * item.quantity;
       }
     }
   }
