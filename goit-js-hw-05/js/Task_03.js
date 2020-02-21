@@ -1,13 +1,27 @@
 "use strict";
 
-// Напиши класс Storage, который будет создавать объекты для управления складом товаров. При вызове будет
-// получать один аргумент - начальный массив товаров, и записывать его в свойство items.
+class Storage {
+  constructor(items = []) {
+    this.items = items;
+  }
 
-// Добавь методы класса:
+  getItems() {
+    return this.items;
+  }
 
-// getItems() - возвращает массив текущих товаров
-// addItem(item) - получает новый товар и добавляет его к текущим
-// removeItem(item) - получет товар и, если он есть, удаляет его из текущих
+  addItem(item) {
+    if (this.items.includes(item) === false) {
+      this.items.push(item);
+    }
+  }
+
+  removeItem(item) {
+    const index = this.items.indexOf(item);
+    if (index > -1) {
+      this.items.splice(index, 1);
+    }
+  }
+}
 
 const storage = new Storage([
   "Нанитоиды",
