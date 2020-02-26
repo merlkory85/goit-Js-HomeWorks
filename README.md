@@ -19,3 +19,7 @@
 
 Ссылка на робочую страницу модуля_04 https://merlkory85.github.io/goit-Js-HomeWorks/goit-js-hw-04/index.html
 
+Ссылка на репо модуля_05 https://github.com/merlkory85/goit-Js-HomeWorks/tree/master/goit-js-hw-05
+
+Ссылка на робочую страницу модуля_05 https://merlkory85.github.io/goit-Js-HomeWorks/goit-js-hw-05/index.html
+
