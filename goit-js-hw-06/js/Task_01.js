@@ -1,9 +1,10 @@
-"use strict";
+import users from "./users.js";
 
 // Получить массив имен всех пользователей (поле name).
 
 const getUserNames = users => {
-  // твой код
+  const userName = users.map(user => user.name);
+  return userName;
 };
 
 console.log(getUserNames(users));
