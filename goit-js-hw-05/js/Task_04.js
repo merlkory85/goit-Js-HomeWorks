@@ -44,17 +44,14 @@ class StringBuilder {
   append(str) {
     const endingStr = this._value.concat(str);
     this.value = endingStr;
-    return this.value;
   }
   prepend(str) {
     const beginningtStr = str.concat(this.value);
     this.value = beginningtStr;
-    return this.value;
   }
   pad(str) {
     const fullStr = str.concat(this.value, str);
     this.value = fullStr;
-    return this.value;
   }
 }
 

@@ -10,7 +10,7 @@ class Storage {
   }
 
   addItem(item) {
-    if (this.items.includes(item) === false) {
+    if (!this.items.includes(item)) {
       this.items.push(item);
     }
   }
