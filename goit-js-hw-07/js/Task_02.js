@@ -1,13 +1,12 @@
 const ingredients = ['Картошка', 'Грибы', 'Чеснок', 'Помидоры', 'Зелень', 'Приправы'];
 
-const ingredientsList = document.querySelector('#ingredients');
+const ingredientsList = document.getElementById('ingredients');
 
-ingredients.forEach(ingredient => {
+const listRef = ingredients.map(ingredient => {
 	const listRef = document.createElement('li');
-	ingredientsList.appendChild(listRef);
-	console.log((listRef.textContent = ingredient));
+	listRef.textContent = ingredient;
+	return listRef;
 });
+ingredientsList.append(...listRef);
 
 console.log(ingredientsList);
-
-
