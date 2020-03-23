@@ -31,5 +31,9 @@
 
 Ссылка на робочую страницу модуля_07 https://merlkory85.github.io/goit-Js-HomeWorks/goit-js-hw-07/index.html
 
+Ссылка на репо модуля_08 https://github.com/merlkory85/goit-Js-HomeWorks/tree/master/goit-js-hw-08-gallery
+
+Ссылка на робочую страницу модуля_08 https://merlkory85.github.io/goit-Js-HomeWorks/goit-js-hw-08-gallery/index.html
+
 
 
