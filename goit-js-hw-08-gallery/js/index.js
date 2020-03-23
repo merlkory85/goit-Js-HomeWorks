@@ -25,10 +25,9 @@ galleryItemsList.addEventListener('click', onGalleryClick);
 
 function onGalleryClick(event) {
 	if (event.target.nodeName !== 'IMG') return;
-	else {
-		overlay.classList.add('is-open');
-		imgRef.src = event.target.getAttribute('data-source');
-	}
+
+	overlay.classList.add('is-open');
+	imgRef.src = event.target.getAttribute('data-source');
 }
 
 closeModalBtn.addEventListener('click', () => {
