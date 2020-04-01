@@ -1,4 +1,4 @@
 import './template/templating.js';
-import '../js/localstroge.js';
+import './js/localstroge.js';
 
 
