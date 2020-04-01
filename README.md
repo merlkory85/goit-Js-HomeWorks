@@ -35,9 +35,9 @@
 
 Ссылка на робочую страницу модуля_08 https://merlkory85.github.io/goit-Js-HomeWorks/goit-js-hw-08-gallery/index.html
 
-Ссылка на репо модуля_10 https://github.com/merlkory85/goit-Js-HomeWorks/tree/master/goit-js-hw-10-gallery
+Ссылка на репо модуля_10 https://github.com/merlkory85/goit-Js-HomeWorks/tree/master/goit-js-hw-10-food-service
 
-Ссылка на робочую страницу модуля_10 https://merlkory85.github.io/goit-Js-HomeWorks/goit-js-hw-10-gallery/index.html
+Ссылка на робочую страницу модуля_10 https://merlkory85.github.io/goit-Js-HomeWorks/goit-js-hw-10-food-service/index.html
 
 
 
