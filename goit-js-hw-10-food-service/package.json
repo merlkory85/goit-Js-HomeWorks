@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
   },
-  "homepage": "https://github.io/merlkory85/goit-Js-HomeWorks.git",
+  "homepage": "https://github.io/merlkory85/goit-Js-HomeWorks",
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
