@@ -1,5 +1,5 @@
 import itemsTemplate from '../template/gallery-item.hbs';
-import listDishes from '../menu.json';
+import listDishes from '../json/menu.json';
 
 const galleryRef = document.querySelector('.js-menu');
 
